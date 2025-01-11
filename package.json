@@ -25,5 +25,10 @@
     "email": "hi@egoist.dev",
     "name": "EGOIST",
     "url": "https://egoist.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egoist/typed-search"
   }
 }
