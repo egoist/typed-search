@@ -1,0 +1,29 @@
+{
+  "name": "typed-search",
+  "version": "0.0.0",
+  "description": "Super simple URLSearchParams parser",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "build": "rolldown -c",
+    "prepublishOnly": "bun run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "rolldown": "^1.0.0-beta.1",
+    "unplugin-isolated-decl": "^0.10.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "author": {
+    "email": "hi@egoist.dev",
+    "name": "EGOIST",
+    "url": "https://egoist.dev"
+  }
+}
