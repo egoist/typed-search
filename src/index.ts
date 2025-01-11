@@ -10,7 +10,7 @@ export function typedSearch<
 
   const query: Record<string, any> = {}
 
-  for (const key of params.keys()) {
+  for (const key of Object.keys(schema)) {
     const values = params.getAll(key)
     if (values.length === 0) continue
 

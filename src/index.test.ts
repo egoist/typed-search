@@ -14,3 +14,9 @@ test("main", () => {
     a: [1, 2],
   })
 })
+
+test("extra keys", () => {
+  expect(typedSearch("a=1&b=2", { a: "number" })).toEqual({
+    a: 1,
+  })
+})
