@@ -30,6 +30,12 @@ console.log(query)
 - `string[]`
 - `number[]`
 
+### Does it support object?
+
+i.e. Can you parse `?a.b.c=1` into `{ a: { b: { c: 1 } } }`?
+
+Not yet, maybe not ever.
+
 ## License
 
 MIT.
